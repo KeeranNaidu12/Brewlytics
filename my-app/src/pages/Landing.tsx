@@ -67,22 +67,7 @@ export default function Landing() {
               Brewlytics
             </span>
           </div>
-          <button
-            onClick={() => navigate('/simulate')}
-            style={{
-              background: theme.brown,
-              color: '#fff',
-              border: 'none',
-              borderRadius: 50,
-              padding: '8px 20px',
-              fontFamily: "'Nunito', sans-serif",
-              fontWeight: 700,
-              fontSize: '0.85rem',
-              cursor: 'pointer',
-            }}
-          >
-            Skip to Lab →
-          </button>
+          
         </div>
 
         {/* Hero */}
